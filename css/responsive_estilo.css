@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+	#contenedor{
+		width: 300px;
+		margin: auto; 
+	}
+}
+@media (min-width: 768px) {
+	#contenedor{
+		width: 600px;
+		margin: auto; 
+	}
+}

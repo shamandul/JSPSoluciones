@@ -1,0 +1,70 @@
+/*
+ * Auctor: Jesús de Serdio
+ */
+
+/* Reset */
+
+*
+{
+	margin: 						0px;
+	padding: 						0px;
+}
+
+body, html
+{
+	color: 							#000;
+	font-size: 						16px;
+}
+
+body
+{
+	background: 			url("../imagenes/fondo.png");
+ 	background-repeat: 		repeat;
+	padding-top: 			50px;
+	margin-right: 			1%;
+	margin-left: 			1%;
+}
+
+footer
+{
+	color: 					#FFF;
+}
+
+label
+{
+	cursor: pointer;
+}
+
+legend
+{
+	color: 					#000;
+}
+
+ul
+{
+	margin-left: 			5%;
+}
+
+ /* IDs */
+
+#contenedor
+{
+	margin: 				auto; 
+	width: 					500px;
+}
+
+/* Clases */
+
+.color_footer
+{
+	background-color: 		#000;
+    display: 				block;
+    height: 				50px;
+    margin: 				0 auto auto auto;
+	width: 					100%;
+}
+.imagen-portfolio
+{
+	height: 				50%;
+	width: 					50%;
+}

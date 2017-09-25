@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>JSP | Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css" type="text/css"/>
+	<link rel="stylesheet" href="../css/estilos.css" type="text/css"/>
+	<link rel="stylesheet" href="../css/responsive_estilo.css" type="text/css"/>
+</head>
+<body>
+	<header>
+	<!-- Navegador-->
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-inner">
+					<div class="navbar-header">
+			     		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navegador" id="button">
+			       			<span class="sr-only">Menú</span>
+			        		<span class="icon-bar"></span>
+			        		<span class="icon-bar"></span>
+			        		<span class="icon-bar"></span>
+			      		</button>
+			      		<a href="../index.html" class="navbar-brand">JSP Soluciones</a>
+			        </div>
+			        <div class="collapse navbar-collapse" id="navegador" name="navegador">
+						<ul class="nav navbar-nav">
+							<li><a href="../index.html">Inicio</a></li>
+							<li><a href="tecnologia.html">Tecnologías</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contacto.html">Contacta</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--Banner superior-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-8 col-xs-offset-2">
+				<img src="../imagenes/banner.png" alt="Banner" class="img-responsive">
+			</div>
+		</div>
+	</div>
+	<!--Titulo-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1 class="text-center">Portfolio</h1><hr/>
+			</div>
+		</div>
+	</div>
+	<!--Contenido-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="text-center">
+					Aquí podeís ver una muestra de algunos de los proyectos realizados
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2 class="text-center">Imágenes</h2>
+			</div>
+		</div>
+	</div>
+	<!--Carrusel-->
+
+	<div id="contenedor" class="container-fluid">
+		<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+		
+		
+			<div id="carousel-portfolio" class="carousel slide" data-ride="carousel">
+	  			<!--Indicadores-->
+			    <ol class="carousel-indicators">
+				    <li data-target="#carousel-portfolio" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-portfolio" data-slide-to="1"></li>
+				    <li data-target="#carousel-portfolio" data-slide-to="2"></li>
+				</ol>
+
+		  		<!--Envoltura para la diapositiva-->
+		  		<div class="carousel-inner">
+		    		<div class="item active">
+		      			<img src="../imagenes/PadelOne9.jpg" alt="Menú de inicio de PadelOne" class="img-responsive">
+		      			<div class="carousel-caption">
+		       				<h3>Inicio</h3>
+		       				<p>Menú de inicio de la aplicación PadelOne</p>
+		      			</div>
+		    		</div>
+		    		<div class="item">
+		      			<img src="../imagenes/PadelOne14.jpg" alt="Ranking de PadelOne" class="img-responsive">
+		      			<div class="carousel-caption">
+		        			<h3>Ranking</h3>
+		        			<p>Ventana donde se muestra el Ranking de la aplicación PadelOne</p>
+		      			</div>
+		    		</div>
+		    		<div class="item">
+		      			<img src="../imagenes/PadelOne16.jpg" alt="Acerca de ... PadelOne" class="img-responsive">
+		      			<div class="carousel-caption">
+		        			<h3>Acerca de </h3>
+		        			<p>Ventana acerca de de la aplicación Padel One</p>
+		      			</div>
+		    		</div>
+	    
+	  			</div>
+			</div>	
+
+  			<!--Controles-->
+	  		<a class="left carousel-control" href="#carousel-portfolio" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	  		<a class="right carousel-control" href="#carousel-portfolio" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+	</div>
+	<br/>
+	<!--Secciones-->
+
+	<div class="container-fluid">
+	<!--Aplicaciones web-->
+		<div class="row">
+			<div class="col-xs-12">
+				<h2 class="text-center">Programación Web</h2>
+				<hr/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8 col-sm-push-4">
+				<h3>Web PadelOne</h3><hr/>
+				<p>Esta web forma parte del Proyecto Integral del Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Informáticas. Esta Web está construida con:</p>
+				<ul>
+					<li>HTML5</li>
+					<li>CSS</li>
+					<li>PHP</li>
+					<li>MySql</li>
+					<li>JSON</li>
+					<li>XML</li>
+				</ul>
+			</div><br/>
+			<div class="col-sm-4 col-sm-pull-8">
+				<img src="../imagenes/webPadelOneInicio.jpg" alt="Web Padel Salinas" class="img-responsive">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8">
+				<h3>Web Creaciones Acuáticas</h3><hr/>
+				<p>Esta Web relacionada con el mundo de los acuarios está construida con:</p>
+				<ul>
+					<li>HTML5</li>
+					<li>CSS</li>
+					<li>PHP</li>
+					<li>CodeIgniter</li>
+					<li>Bootstrap</li>
+				</ul>
+			</div><br/>
+			<div class="col-sm-4">
+				<img src="../imagenes/web_Creaciones _Acuaticas_inicio.jpg" alt="Web Creaciones Acuáticas" class="img-responsive">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8 col-sm-push-4">
+				<h3>Web V.M. Ariza</h3><hr/>
+				<p>En esta web solo me ocupé de la parte de Back-end, aunque también participé de algo de Front-end. Esta Web está construida con:</p>
+				<ul>
+					<li>HTML5</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li><strong>Jquery</strong></li>
+					<li><strong>PHP</strong></li>
+					<li><strong>MySql</strong></li>
+				</ul>
+				<p> Visita su web en <a href="http://www.vmarizasl.com/">V.M. Ariza</a></p>
+			</div><br/>
+			<div class="col-sm-4 col-sm-pull-8">
+				<img src="../imagenes/web_V_M_Ariza_inicio.jpg" alt="Web V.M. Ariza" class="img-responsive">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8">
+				<h3>Web JSP Soluciones</h3><hr/>
+				<p>Esta es mi propia Web. Esta Web está construida con:</p>
+				<ul>
+					
+					<li>CSS</li>
+					<li>Jquery</li>
+					<li>PHP</li>
+					<li>Bootstrap</li>
+				</ul>
+			</div><br/>
+			<div class="col-sm-4">
+				<img src="../imagenes/web_jsp.jpg" alt="Web JSP Soluciones" class="img-responsive">
+			</div>
+		</div>
+	<!--Aplicaciones Android-->
+		<div class="row">
+			<div class="col-xs-12">
+				<h2 class="text-center">Programación Móvil</h2>
+				<hr/>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="col-sm-8 col-sm-push-4">
+				<h3>PadelOne para Android</h3><hr/>
+				<p>Es una aplicación para Android que funciona junto a la web PadelOne y forma parte del Proyecto Integral del Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Informáticas. La aplicación web está construida con:</p>
+				<ul>
+					<li>Java para android</li>
+					<li>JSON</li>
+					<li>Peticiones a servicios a través de GET y POST</li>
+					<li>Diseño con GIMP</li>
+					<li>SQlite y MySql en el servido</li>
+				</ul>
+			</div><br/>
+			<div class="col-sm-4 col-sm-pull-8">
+				<img src="../imagenes/PadelOne_acerca_de.jpg" alt="Aplicación PadelOne" class="img-responsive center-block imagen-portfolio">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8">
+				<h3>Asteroid para Android</h3><hr/>
+				<p>Es un juego arcade de asteroides que realizé en iniciación a Android en la plataforma Miriadax. Esta Aplicación está construida con:</p>
+				<ul>
+					<li>Java para Android</li>
+				</ul>
+			</div><br/>
+			<div class="col-sm-4">
+				<img src="../imagenes/Asteroid_menu.jpg" alt="Aplicación Asteroid" class="img-responsive center-block imagen-portfolio">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8 col-sm-push-4">
+				<h3>Ajedrez para Android</h3><hr/>
+				<p>Es una aplicación para Android realizada en el Curso de Desarrollo de Aplicaciones en HTML5 y para
+				Dispositivos Móviles Firefox O.S,en la Plataforma Miriadax. La aplicación web está construida con:</p>
+				<ul>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JQuery</li>
+					<li>Zepto</li>
+				</ul>
+			</div><br/>
+			<div class="col-sm-4 col-sm-pull-8">
+				<img src="../imagenes/Ajedrez_menu.jpg" alt="Aplicación Ajedrez FireFox O.S." class="img-responsive center-block imagen-portfolio">
+			</div>
+		</div>
+
+
+		<br/>
+
+	</div>
+
+
+
+	<!--Pié de página-->
+	<footer class="container-fuid">
+		<div class="row">
+			<p class="small-12-columns text-center color_footer"><strong>&copy; 2015</strong> www.jspsoluciones.es</p>
+		</div>
+	</footer>
+	<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../css/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
